@@ -1,0 +1,21 @@
+{
+  "name": "syncthing",
+  "version": "0.1.0",
+  "description": "Syncthing Plugin for Volumio: Use http://volumio.local:8384 to access the Syncthing admin GUI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ener",
+  "license": "Mozilla Public License 2.0",
+  "volumio_info": {
+    "prettyName": "Syncthing",
+    "icon": "fa-lightbulb-o",
+    "plugin_type": "system_controller"
+  },
+  "dependencies": {
+    "fs-extra": "^0.28.0",
+    "kew": "^0.7.0",
+    "v-conf": "^1.4.0"
+  }
+}
