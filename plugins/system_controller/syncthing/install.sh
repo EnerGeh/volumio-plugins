@@ -11,10 +11,13 @@ sudo apt-get update
 # Install the required packages via apt-get
 sudo apt-get -y install syncthing
 
-echo "Creating Syncthing Service"
-cp Syncthing/etc/system/syncthing.service ~/.config/systemd/user/syncthing.service
+echo "Going to Syncthing Service"
+cd /lib/systemd/system/
 echo "Starting Syncthing Service"
-systemctl --user start syncthing.service
+systemctl start syncthing@volumio.service
+systemctl status syncthing@volumio.service
+echo "Verifying web access"
+curl - I 127.0.0.1:8384
 # If you need to differentiate install for armhf and i386 you can get the variable like this
 #DPKG_ARCH=`dpkg --print-architecture`
 # Then use it to differentiate your install
