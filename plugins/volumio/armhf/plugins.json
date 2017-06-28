@@ -278,6 +278,24 @@
             }
           ],
           "updated": "28-6-2017"
+        },
+        {
+          "prettyName": "Syncthing",
+          "icon": "fa-lightbulb-o",
+          "name": "syncthing",
+          "version": "0.1.0",
+          "url": "http://volumio.github.io/volumio-plugins/plugins/volumio/armhf/system_controller/syncthing/syncthing.zip",
+          "license": "Mozilla Public License 2.0",
+          "description": "Syncthing Plugin for Volumio: Use http://volumio.local:8384 to access the Syncthing admin GUI.",
+          "details": "Very early alpha release of Syncthing Volumio Plugin",
+          "author": "Ener",
+          "screenshots": [
+            {
+              "image": "",
+              "thumb": ""
+            }
+          ],
+          "updated": "28-6-2017"
         }
       ]
     },
